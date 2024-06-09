@@ -103,6 +103,15 @@ body{
     
 }
 
+.linkGithub{
+    position: absolute;
+    right: 9%;
+    bottom: 0%;
+    background-color:#ffffff1c;
+    border: none;
+    border-radius: 0;
+}
+
 /* ---- */
 .card-body{
     display: flex;
