@@ -252,7 +252,7 @@ body{
     unicode-bidi: isolate;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 430px) {
     .bio1, .bio2{
         padding: 2rem;
     }
