@@ -153,6 +153,7 @@ body{
     align-items: center;
     padding-top: 1rem;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .red{
@@ -200,6 +201,7 @@ body{
     /* padding: 5rem; */
     /* background-color: black; */
     display: flex;
+    flex-wrap: wrap;
 }
 
 .bio1{
