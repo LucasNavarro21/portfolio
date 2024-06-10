@@ -259,5 +259,9 @@ body{
     .bio1 h4, .bio2 h4{
         font-size: 1rem;
     }
+
+    .fa-7x{
+        font-size: 4em !important;
+    }
 }
 
