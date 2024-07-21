@@ -374,6 +374,11 @@ body{
 @media only screen and (max-width: 430px) {
     .bio1, .bio2{
         padding: 2rem;
+
+    }
+
+    .bio1 h4{
+        width: 90%;
     }
     .bio1 h4, .bio2 h4{
         font-size: 1rem;
@@ -391,13 +396,50 @@ body{
         padding: 0;
     }
 
-
-    .card-body .card-text{
-        font-size: 1rem;
+    .proyectos{
+         margin: 0;
         
+    }
+    .card-body{
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        
+    }
+
+    .card-body a{
+        width: 100%;
+        font-size: 2.6rem;
+    }
+
+    .tituloProyecto{
+        font-size: 2.6rem;
+        line-height: 2.8rem;
+    
+    }
+    .card{
+        display: flex;
+        align-items: center;
     }
     .linkGithub{
         right: 25%;
+    }
+
+    .containerRedesFooter{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .navbarFooter ul a{
+    font-size: 1.7rem;    
+}
+
+    .redesFooter{
+        justify-content: center;
+    }
+    .footer h4{
+        margin: 0.9rem;
     }
 }
 
