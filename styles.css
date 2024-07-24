@@ -16,6 +16,7 @@ body{
     background-color: transparent;
     position: fixed;
     width: 100%;
+    z-index: 1;
     /* flex-direction: row; */
 }
 
@@ -368,6 +369,55 @@ body{
     /* font-family: 'Rubik', sans-serif; */
     font-weight: 500;
     unicode-bidi: isolate;
+}
+
+@media only screen and (max-width: 768px){
+    
+    .bio1{
+        padding: 2rem;
+    }
+    .biografia h4{
+        width: 85%;
+    }
+
+    .redesLogos{
+        gap: 0.9rem;
+    }
+
+    .fa-7x {
+        font-size: 5em !important;
+    }
+
+
+    .tituloProyecto{
+
+        font-size: 2.8rem;
+        line-height: 2.9rem;
+
+    }
+    .card-body{
+        font-size: 3.3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        
+    }
+
+    .containerRedesFooter{
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+    }
+
+    .navbarFooter ul a {
+        font-size: 2.6rem;
+    }
+
+    .card-body{
+        align-items: center;
+    }
+
+
 }
 
 
