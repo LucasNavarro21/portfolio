@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="../styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="Contenedor-Navbar"></div>
+
+        <script type="module">
+            import { loadNavbar } from '../navbar.js';
+            document.getElementById("Contenedor-Navbar").innerHTML = loadNavbar();
+        </script>
+
+
+    </header>
+
+    <div class="Contenedor-Proyectos">
+        <div class="Contenedor-Proyectos-Texto">
+            <h5>NEWSLETTER</h5>
+            <p>Creé un newsletter utilizando HTML y CSS, asegurando un diseño visual atractivo y moderno. Además,
+                implementé técnicas de diseño responsivo para garantizar que el newsletter se vea bien en una variedad
+                de dispositivos y tamaños de pantalla, tales como celulares, tablets y notebooks.</p>
+        </div>
+        <div class="Contenedor-Proyectos-Imagen">
+            <img src="https://www.muycomputerpro.com/wp-content/uploads/2021/10/directivos-volver-oficina-empleados.jpg"
+                alt="">
+        </div>
+        <div class="Contenedor-Proyectos-Texto-Secundario">
+            <h5 class="Titulo-Texto">Responsabilidades</h5>
+            
+            <p>Como analista de sistemas, use html y css para crear una interfaz visualmente atractiva. Mediante el uso
+                de las medias queries pude ajustar el diseño a distintas resoluciones de pantalla</p>
+        </div>
+        <div class="Contenedor-Proyectos-Texto-Terciario">
+            <h5 class="Titulo-Texto">Tecnologias</h5>
+            <div class="Texto-Tecnologias-Repositorio">
+                <p>Javascript | Bootstrap | DataTables | Mysql | PHP</p>
+                <a href=""> <i class="fab fa-github fa-2x red"></i> Repositorio</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

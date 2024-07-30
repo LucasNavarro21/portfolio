@@ -19,14 +19,12 @@
 <body>
 
   <header>
-    <nav>
-        <ul class="contenedorNavbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <!-- <li><a href="#services">Services</a></li> -->
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div id="Contenedor-Navbar"></div>
+    <script type="module">
+      import { loadNavbar } from './navbar.js';
+      document.getElementById("Contenedor-Navbar").innerHTML = loadNavbar();
+  </script>
+
 </header>
 
   <div class="presentacion">
@@ -88,15 +86,15 @@
   <div class="proyectos todoapp">
     <div class="card" id="todoapp">
       <div class="card-body">
-        <a href="">Asistencias</a>
-        <a href="">Todo App</a>
+        <a href="./paginas/asistencias.html">Asistencias</a>
+        <a href="./paginas/todo-app.html">Todo App</a>
       </div>
     </div>
   </div>
   <div class="proyectos Newsletter">
     <div class="card" id="Newsletter">
       <div class="card-body">
-        <a href="">Newsletter</a>
+        <a href="./paginas/newsletter.html">Newsletter</a>
 
       </div>
     </div>
